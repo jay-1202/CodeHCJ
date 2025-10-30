@@ -161,6 +161,7 @@ body {
 
 .element {
     margin: 0 10%;
+    cursor: default;
 }
 
 .element p {
