@@ -147,15 +147,14 @@ body {
 }
 
 .s_navlist summary {
-    /* cursor: pointer; */
     font-weight: 900;
-    /* width: fit-content; */
+    width: fit-content;
     border-radius: 5px;
     padding: 10px 10px;
 }
 
 .s_navlist summary:hover {
-    background-color: rgb(255, 255, 255, 0.1);
+    text-decoration: underline;
 }
 
 .options {
@@ -180,6 +179,11 @@ body {
     background-color: black;
 }
 
+.content:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+
 /* content elements */
 
 .element {
@@ -189,7 +193,6 @@ body {
 }
 
 .element>h1 {
-    /* margin: 0 auto; */
     text-decoration: underline;
 }
 
